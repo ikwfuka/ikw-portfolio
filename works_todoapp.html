@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Webデザイナー FUKA ISHIKAWA ポートフォリオ">
+  <meta property="og:url" content="URLが入る">
+  <meta property="og:description" content="FUKA ISHIKAWAのポートフォリオサイトです。">
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="FUKA ISHIKAWAのポートフォリオサイトです" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>FUKA ISHIKAWA ポートフォリオ</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link rel="canonical" href="URLが入る" />
+</head>
+
+<body class="todoapp">
+  <div class="wrapper">
+
+    <!-- header -->
+    <header class="header">
+      <div class="container">
+        <h1 class="header-logo">
+          <a href=".">FUKA ISHIKAWA</a>
+        </h1>
+        <nav class="gnav">
+          <ul class="gnav-list">
+            <li class="gnav-item"><a href=".#works">WORKS</a></li>
+            <li class="gnav-item"><a href="./#skill">SKILL</a></li>
+            <li class="gnav-item"><a href="./#about">ABOUT</a></li>
+            <li class="gnav-item"><a href="./#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
+    <main class="content">
+      <article class="article">
+        <div class="article-container">
+          <h2 class="article-title">ToDoアプリ（自主制作）</h2>
+          <div class="article-body">
+            <div class="works_comps flex-row">
+              <div class="works_comps_pc">
+                <img src="img/spring-app0331-todo_pc.png" width="" height="" alt="">
+              </div>
+              <div class="works_comps_mb">
+                <img src="img/spring-app0331-todo_sp.png" width="" height="" alt="">
+              </div>
+            </div>
+            <p>
+              AIを活用したプログラミング手法で、Spring Bootアプリケーションを開発しました。日常的に使いやすいToDoアプリになるよう設計しました。
+            </p>
+            <h3>URL</h3>
+              <p><a href="https://spring-app0331-s2x5.onrender.com" target="_blank"
+                  rel="noopener">https://spring-app0331-s2x5.onrender.com</a></p>
+              <h3>担当</h3>
+              <p>設計</p>
+            <h3>制作期間</h3>
+            <p>25時間</p>
+            <h3>使用ツール</h3>
+            <p>Spring boot(フレームワーク)、Render(デプロイ)、Chat GPT codex、Visual Studio Code</p>
+            <h3>目的</h3>
+            <p>AIを活用したアプリケーション開発の学習を目的に、誰でも直感的に操作できるシンプルなTodoアプリを開発しました。</p>
+            <h3>ターゲット</h3>
+            <p>余計な機能がないシンプルな設計で、簡単にTodo管理をしたい方。</p>
+            <h3>工夫した点</h3>
+            <p>
+              ・Spring bootのプロジェクトの作成と初期設定から行い、画面設計→フォーム送信データを次の画面に渡す→データベース設定(H2データベース)→ModelとMapperを作成しデータ登録→一覧に表示といった必要な設定を1つずつ確認しながら制作をしていきました。基本の機能が実装できたところで、サイドバーの追加やタイムラインなどへの切り替え、編集・削除・検索機能などを追加していきました。<br>
+              ・直感的にも使えるように、各タスクはドラッグ&ドロップで移動可能にして、ステータスも自動で変更されるよう調整を重ねました。<br>
+              ・自分が使うなら理想的なToDoアプリはどんな機能があると良いか、誰が使っても使いやすいかという視点から、機能と画面設計をしていきました。
+            </p>
+          </div>
+          <div class="home-link">
+            <a href="./#works">Works一覧へ</a>
+          </div>
+        </div>
+      </article>
+
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">expand_less</span>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="copyright">&copy;2026 FUKA ISHIKAWA</div>
+    </footer>
+    <!-- /footer -->
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
